@@ -9,7 +9,7 @@ function launch () {
 }
 
 
-launch ./chrome.sh
+#launch ./chrome.sh
 #launch ./vs-code.sh
 # launch ./node-js.sh
 # launch ./angular.sh

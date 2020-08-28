@@ -1,12 +1,6 @@
 #!/bin/bash
-
-# Up from scripts dir
-cd ..
-cd ..
-dotfilesDir=$(pwd)
-
 function linkDotfile {
-  dest="${HOME}/MY_DOTFILES"
+  dest="./MY_DOTFILES/myDots"
   dateStr=$(date +%Y-%m-%d-%H%M)
 
   if [ -h ~/${1} ]; then
@@ -16,8 +10,10 @@ function linkDotfile {
 
   elif [ -f "${dest}" ]; then
     # Existing file
-    echo "Backing up existing file: ${dest}"
-    mv ${dest}{,.${dateStr}}
+    # echo "Backing up existing file: ${dest}"
+    # mv ${dest}{,.${dateStr}}
+    echo "kill existing file: ${dest}"
+    rm ${dest}
 
   elif [ -d "${dest}" ]; then
     # Existing dir
@@ -26,13 +22,15 @@ function linkDotfile {
   fi
 
   echo "Creating new symlink: ${dest}"
-  ln -s ${dotfilesDir}/${1} ${dest}
+  ln -s ${dotfilesDir}/${1} ${dest}/${1}
 }
 
-linkDotfile .vimrc
-linkDotfile .tmux.conf
+
+
+
+cd ..
+dotfilesDir=$(pwd)
+# /home/andrea
+
 linkDotfile .bashrc
-linkDotfile .bash_profile
-linkDotfile .gitconfig
-linkDotfile .gitmessage
-linkDotfile .git-completion.bash
+# link

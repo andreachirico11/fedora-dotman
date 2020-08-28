@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo dnf check-update
+sudo dnf update
 
 sudo dnf install gnome-tweak-tool
