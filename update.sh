@@ -1,6 +1,6 @@
 #!/bin/bash
 function linkDotfile {
-  dest="./MY_DOTFILES/myDots"
+  dest="./myFedoraBackup/myDots"
   dateStr=$(date +%Y-%m-%d-%H%M)
 
   if [ -h ~/${1} ]; then
@@ -28,9 +28,32 @@ function linkDotfile {
 
 
 
-cd ..
-dotfilesDir=$(pwd)
+#cd ..
+#dotfilesDir=$(pwd)
 # /home/andrea
 
-linkDotfile .bashrc
+# linkDotfile .bashrc
 # link
+
+
+
+
+
+# Update Desktop Settings
+
+
+dconf dump /org/gnome/ > ./myDesktop/my_gnome_settings
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Push on github

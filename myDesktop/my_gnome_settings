@@ -1,0 +1,426 @@
+[Totem]
+active-plugins=['screenshot', 'recent', 'open-directory', 'skipto', 'media-player-keys', 'rotation', 'vimeo', 'apple-trailers', 'movie-properties', 'screensaver', 'autoload-subtitles', 'save-file', 'variable-rate']
+subtitle-encoding='UTF-8'
+
+[control-center]
+last-panel='region'
+
+[desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gucharmap.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'simple-scan.desktop', 'vinagre.desktop', 'yelp.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/background]
+color-shading-type='solid'
+draw-background=true
+picture-options='zoom'
+picture-uri='file:///home/andrea/Pictures/theme-images/desktop.jpg'
+primary-color='#000000'
+secondary-color='#000000'
+show-desktop-icons=true
+
+[desktop/input-sources]
+current=uint32 0
+sources=[('xkb', 'it')]
+xkb-options=@as []
+
+[desktop/interface]
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Midight'
+toolkit-accessibility=false
+
+[desktop/notifications]
+application-children=['org-gnome-nautilus', 'gnome-control-center', 'org-gnome-terminal', 'gnome-power-panel', 'gnome-printers-panel']
+show-banners=true
+
+[desktop/notifications/application/com-github-calo001-fondo]
+application-id='com.github.calo001.fondo.desktop'
+
+[desktop/notifications/application/gnome-control-center]
+application-id='gnome-control-center.desktop'
+
+[desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[desktop/notifications/application/gnome-printers-panel]
+application-id='gnome-printers-panel.desktop'
+
+[desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'
+
+[desktop/peripherals/touchpad]
+speed=0.39705882352941169
+tap-to-click=true
+two-finger-scrolling-enabled=true
+
+[desktop/privacy]
+disable-microphone=false
+report-technical-problems=false
+
+[desktop/screensaver]
+lock-delay=uint32 60
+lock-enabled=true
+picture-uri='file:///home/andrea/Pictures/theme-images/lock.jpg'
+show-notifications=true
+
+[desktop/session]
+idle-delay=uint32 0
+
+[eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[evince/default]
+window-ratio=(1.0084033613445378, 0.71258907363420432)
+
+[evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[file-roller/ui]
+sidebar-width=200
+window-height=1010
+window-width=960
+
+[gedit/plugins]
+active-plugins=['modelines', 'time', 'spell', 'filebrowser', 'docinfo']
+
+[gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/andrea/myFedoraBackup'
+
+[gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 698)
+state=87168
+
+[login-screen]
+enable-fingerprint-authentication=true
+enable-password-authentication=true
+enable-smartcard-authentication=false
+
+[nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[nautilus/window-state]
+initial-size=(890, 554)
+maximized=false
+
+[org/gnome/Totem]
+active-plugins=['screenshot', 'recent', 'open-directory', 'skipto', 'media-player-keys', 'rotation', 'vimeo', 'apple-trailers', 'movie-properties', 'screensaver', 'autoload-subtitles', 'save-file', 'variable-rate']
+subtitle-encoding='UTF-8'
+
+[org/gnome/control-center]
+last-panel='region'
+
+[org/gnome/desktop/a11y/applications]
+screen-keyboard-enabled=false
+
+[org/gnome/desktop/a11y/keyboard]
+togglekeys-enable=false
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gucharmap.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'simple-scan.desktop', 'vinagre.desktop', 'yelp.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///home/andrea/Pictures/desktop.jpg'
+primary-color='#000000'
+secondary-color='#000000'
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+sources=[('xkb', 'it')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+cursor-blink=false
+enable-animations=true
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Midight'
+locate-pointer=false
+toolkit-accessibility=false
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-nautilus', 'gnome-control-center', 'org-gnome-terminal', 'gnome-power-panel', 'gnome-printers-panel']
+show-banners=true
+
+[org/gnome/desktop/notifications/application/com-github-calo001-fondo]
+application-id='com.github.calo001.fondo.desktop'
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-bluetooth-panel]
+application-id='gnome-bluetooth-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-control-center]
+application-id='gnome-control-center.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-printers-panel]
+application-id='gnome-printers-panel.desktop'
+
+[org/gnome/desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[org/gnome/desktop/notifications/application/org-freedesktop-problems-applet]
+application-id='org.freedesktop.problems.applet.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evince]
+application-id='org.gnome.Evince.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-terminal]
+application-id='org.gnome.Terminal.desktop'
+enable-sound-alerts=false
+
+[org/gnome/desktop/notifications/application/org-gnome-tweaks]
+application-id='org.gnome.tweaks.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+delay=uint32 588
+repeat=true
+repeat-interval=uint32 23
+
+[org/gnome/desktop/peripherals/touchpad]
+speed=0.39705882352941169
+tap-to-click=true
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+disable-microphone=false
+report-technical-problems=false
+
+[org/gnome/desktop/screensaver]
+picture-uri='file:///home/andrea/Pictures/desktop.jpg'
+
+[org/gnome/desktop/session]
+idle-delay=uint32 0
+
+[org/gnome/eog/ui]
+sidebar=false
+
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[org/gnome/evince/default]
+window-ratio=(1.0084033613445378, 0.71258907363420432)
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/file-roller/dialogs/add]
+current-folder='file:///home/andrea/Documents'
+exclude-files=''
+exclude-folders=''
+include-files='*'
+no-symlinks=true
+selected-files=@as []
+update=false
+
+[org/gnome/file-roller/dialogs/extract]
+recreate-folders=true
+skip-newer=false
+
+[org/gnome/file-roller/file-selector]
+show-hidden=false
+sidebar-size=168
+window-size=(840, 763)
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=1010
+window-width=960
+
+[org/gnome/gedit/plugins]
+active-plugins=['spell', 'time', 'filebrowser', 'docinfo', 'modelines']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/andrea/myFedoraBackup/myDesktop'
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(800, 830)
+state=87168
+
+[org/gnome/libgnomekbd/preview]
+height=605
+width=1464
+x=240
+y=135
+
+[org/gnome/login-screen]
+enable-fingerprint-authentication=true
+enable-password-authentication=true
+enable-smartcard-authentication=false
+
+[org/gnome/mutter]
+workspaces-only-on-primary=false
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='list-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+initial-size=(800, 826)
+maximized=false
+sidebar-width=172
+
+[org/gnome/nm-applet/eap/613256f8-331a-4c96-8d55-02530f4b6792]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=false
+night-light-last-coordinates=(43.138900719942406, 12.1097)
+night-light-schedule-automatic=false
+night-light-schedule-to=20.0
+night-light-temperature=uint32 4036
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-timeout=1200
+sleep-inactive-battery-type='suspend'
+
+[org/gnome/settings-daemon/plugins/xsettings]
+antialiasing='grayscale'
+hinting='slight'
+
+[org/gnome/shell]
+app-picker-view=uint32 1
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'code.desktop', 'org.gnome.Terminal.desktop']
+had-bluetooth-devices-setup=true
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/software]
+check-timestamp=int64 1598794760
+download-updates=false
+download-updates-notify=false
+first-run=false
+install-timestamp=int64 1598781176
+online-updates-timestamp=int64 1598554179
+show-nonfree-prompt=false
+
+[org/gnome/system/location]
+enabled=false
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=157
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(404, 1096)
+window-size=(1203, 694)
+
+[settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-schedule-automatic=false
+night-light-schedule-to=20.0
+night-light-temperature=uint32 4700
+
+[settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-timeout=1200
+sleep-inactive-battery-type='suspend'
+
+[settings-daemon/plugins/xsettings]
+antialiasing='grayscale'
+hinting='slight'
+
+[shell]
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'google-chrome.desktop', 'code.desktop', 'org.gnome.Terminal.desktop']
+
+[shell/world-clocks]
+locations=@av []
+
+[software]
+check-timestamp=int64 1598794761
+download-updates=false
+download-updates-notify=false
+online-updates-timestamp=int64 1598785768
+
+[system/locale]
+region='it_IT.UTF-8'
+
+[system/location]
+enabled=false
